@@ -3,23 +3,25 @@
 # ECWolf-AppImage 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/ECWolf-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/ECWolf-AppImage/releases/latest)
-[![CI Build Status](https://github.com//pkgforge-dev/ECWolf-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/ECWolf-AppImage/releases/latest)
+[![CI Build Status](https://github.com/pkgforge-dev/ECWolf-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/ECWolf-AppImage/releases/latest)
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/ECWolf-AppImage)](https://github.com/pkgforge-dev/ECWolf-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://bitbucket-assetroot.s3.amazonaws.com/c/photos/2019/Sep/08/1946077205-1-ecwolf-logo_avatar.png" width="128" />
+  <img src="https://raw.githubusercontent.com/ECWolfEngine/ECWolf/refs/heads/master/src/macosx/icon.iconset/icon_256x256.png" width="128" />
 </p>
 
 
 | Latest Stable Release | Upstream URL |
 | :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/ECWolf-AppImage/releases/latest) | [Click here](https://bitbucket.org/ecwolf/ecwolf) |
+| [Click here](https://github.com/pkgforge-dev/ECWolf-AppImage/releases/latest) | [Click here](https://github.com/ECWolfEngine/ECWolf) |
 
 </div>
 
+## ⚠️ Game assets within `~/.local/share/ecwolf` ⚠️
+
 ---
 
-AppImage made using [sharun](https://github.com/VHSgunzo/sharun) and its wrapper [quick-sharun](https://github.com/pkgforge-dev/Anylinux-AppImages/blob/main/useful-tools/quick-sharun.sh), which makes it extremely easy to turn any binary into a portable package reliably without using containers or similar tricks. 
+AppImage made using [quick-sharun](https://github.com/pkgforge-dev/Anylinux-AppImages/blob/main/useful-tools/quick-sharun.sh), which makes it extremely easy to turn any binary into a portable package reliably without using containers or similar tricks. 
 
 **This AppImage bundles everything and it should work on any Linux distro, including old and musl-based ones.**
 
