@@ -19,7 +19,5 @@ quick-sharun /usr/bin/ecwolf
 cp /usr/share/ecwolf/ecwolf.pk3 ./AppDir/bin
 echo 'SHARUN_WORKING_DIR=${SHARUN_DIR}/bin' >> ./AppDir/.env
 
-# Additional changes can be done in between here
-
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
