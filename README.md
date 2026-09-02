@@ -7,13 +7,13 @@
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/ECWolf-AppImage)](https://github.com/pkgforge-dev/ECWolf-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://bitbucket-assetroot.s3.amazonaws.com/c/photos/2019/Sep/08/1946077205-1-ecwolf-logo_avatar.png" width="128" />
+  <img src="https://raw.githubusercontent.com/ECWolfEngine/ECWolf/1bff92d43bc1c1b6e9c4c03f0fd3c7ae9c972f9e/src/posix/icon.svg" width="128" />
 </p>
 
 
 | Latest Stable Release | Upstream URL |
 | :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/ECWolf-AppImage/releases/latest) | [Click here](https://bitbucket.org/ecwolf/ecwolf) |
+| [Click here](https://github.com/pkgforge-dev/ECWolf-AppImage/releases/latest) | [Click here](https://github.com/ECWolfEngine/ECWolf) |
 
 </div>
 
