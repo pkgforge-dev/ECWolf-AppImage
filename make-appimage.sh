@@ -8,7 +8,7 @@ export ARCH VERSION
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
-export ICON=/usr/share/pixmaps/ecwolf.png
+export ICON=https://raw.githubusercontent.com/ECWolfEngine/ECWolf/refs/heads/master/src/macosx/icon.iconset/icon_256x256.png
 export DESKTOP=/usr/share/applications/net.maniacsvault.ecwolf.desktop
 export DEPLOY_OPENGL=1
 
