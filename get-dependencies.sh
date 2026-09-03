@@ -33,4 +33,4 @@ cmake -S ./ -B build \
 	-DCMAKE_BUILD_TYPE=Release \
 	-DGPL=ON
 cmake --build build -j$(nproc)
-mv -v build/ecwolf ../AppDir/bin
+mv -v build/ecwolf build/ecwolf.pk3 ../AppDir/bin
