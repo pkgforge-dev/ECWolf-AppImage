@@ -29,7 +29,8 @@ echo "$VERSION" > ~/version
 mkdir -p ./AppDir/bin
 cd ./ECWolf
 git checkout "$VERSION"
-cmake -S ./ -B build -DCMAKE_BUILD_TYPE=Release -DBUILD_PATCHUTIL=ON \
-		-DGPL=ON
+cmake -S ./ -B build \
+	-DCMAKE_BUILD_TYPE=Release \
+	-DGPL=ON
 cmake --build build -j$(nproc)
 mv -v build/ecwolf ../AppDir/bin
