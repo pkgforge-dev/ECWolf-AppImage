@@ -31,3 +31,4 @@ cd ./ECWolf
 cmake -S ./ -B build -DCMAKE_BUILD_TYPE=Release -DBUILD_PATCHUTIL=ON \
 		-DGPL=ON
 cmake --build build -j$(nproc)
+mv -v build/ecwolf ../AppDir/bin
