@@ -23,12 +23,11 @@ echo "Building stable version of UEFITool..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/ECWolfEngine/ECWolf"
 VERSION="$(curl -s https://api.github.com/repos/ECWolfEngine/ECWolf/releases/latest | grep '"tag_name"' | cut -d '"' -f 4)"
-git clone "$REPO" ./ECWolf
+git clone --branch "$VERSION" --depth 1 "$REPO" ./ECWolf
 echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
 cd ./ECWolf
-git checkout "$VERSION"
 cmake -S ./ -B build \
 	-DCMAKE_BUILD_TYPE=Release \
 	-DGPL=ON
