@@ -15,7 +15,7 @@ echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano libdecor-mini
 
-echo "Building stable version of UEFITool..."
+echo "Building stable version of ECWolf..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/ECWolfEngine/ECWolf"
 VERSION="$(curl -s https://api.github.com/repos/ECWolfEngine/ECWolf/tags | grep '"name"' | grep -v 'pre' | head -1 | cut -d '"' -f 4)"
