@@ -23,9 +23,6 @@ git clone --branch "$VERSION" --depth 1 "$REPO" ./ECWolf
 echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
-cd ./ECWolf
-cmake -S ./ -B build \
-	-DCMAKE_BUILD_TYPE=Release \
-	-DGPL=ON
+cmake -S ./ECWolf -B build -DCMAKE_BUILD_TYPE=Release -DGPL=ON
 cmake --build build -j$(nproc)
-mv -v build/ecwolf build/ecwolf.pk3 ../AppDir/bin
+mv -v build/ecwolf build/ecwolf.pk3 ./AppDir/bin
